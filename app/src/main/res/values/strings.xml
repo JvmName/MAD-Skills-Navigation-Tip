@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MAD Skills Navigation Sample</string>
+    <string name="main_title">Main Fragment</string>
+    <string name="main_button">Navigate To Library!</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/graph_app"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="dev.jvmname.navsample.MainFragment"
+        android:label="MainFragment">
+        <deepLink app:uri="myapp://main-screen/" />
+    </fragment>
+
+    <include app:graph="@navigation/graph_library" />
+</navigation>
